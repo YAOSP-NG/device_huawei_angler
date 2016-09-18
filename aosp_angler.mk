@@ -43,3 +43,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     AOSPLinks
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=google/angler/angler:7.0/NRD90U/3155372:user/release-keys \
+    PRIVATE_BUILD_DESC="angler-user 7.0 NRD90U 3155372 release-keys"
