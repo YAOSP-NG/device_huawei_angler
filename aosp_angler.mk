@@ -35,6 +35,9 @@ PRODUCT_MODEL := Nexus 6P
 PRODUCT_MANUFACTURER := Huawei
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Include YAOSP telephony configuration
+include vendor/yaosp/configs/yaosp_phone.mk
+
 $(call inherit-product, device/huawei/angler/device.mk)
 $(call inherit-product-if-exists, vendor/huawei/angler/device-vendor.mk)
 
