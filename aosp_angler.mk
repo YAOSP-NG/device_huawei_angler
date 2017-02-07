@@ -46,3 +46,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     AOSPLinks
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=google/angler/angler:7.1.1/N4F26O/3582057:user/release-keys \
+    PRIVATE_BUILD_DESC="angler-user 7.1.1 N4F26O 3582057 release-keys"
